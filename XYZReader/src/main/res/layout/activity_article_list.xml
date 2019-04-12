@@ -7,7 +7,8 @@
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="?colorPrimary">
+        android:background="?colorPrimary"
+        app:elevation="@dimen/appbar_elevation">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_container"

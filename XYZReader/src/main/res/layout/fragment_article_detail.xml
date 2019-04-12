@@ -15,7 +15,7 @@
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:background="?colorPrimary">
+            app:elevation="@dimen/appbar_elevation">
             <android.support.design.widget.CollapsingToolbarLayout
                 android:id="@+id/toolbarLayout"
                 android:layout_width="match_parent"
@@ -43,7 +43,6 @@
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
-                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                     app:layout_collapseMode="pin">
                     <LinearLayout
                         android:layout_width="match_parent"
